@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="order-payment-service" />
+        <module name="order-streams" />
+        <module name="order-common" />
+        <module name="order-producer" />
+        <module name="order-notification-service" />
+        <module name="order-inventory-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="order-inventory-service" options="" />
+      <module name="order-notification-service" options="" />
+      <module name="order-payment-service" options="" />
+      <module name="order-producer" options="" />
+      <module name="order-streams" options="" />
+    </option>
+  </component>
+</project>
