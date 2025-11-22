@@ -1,2 +1,3 @@
 com/example/common/Main.class
+com/example/common/repository/OrderRepository.class
 com/example/common/model/Order.class

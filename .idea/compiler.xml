@@ -17,6 +17,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="order-common" options="-parameters" />
       <module name="order-inventory-service" options="" />
       <module name="order-notification-service" options="" />
       <module name="order-payment-service" options="" />
